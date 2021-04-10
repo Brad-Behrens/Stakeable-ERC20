@@ -1,0 +1,31 @@
+{
+  "name": "stakeable-erc20",
+  "version": "1.0.0",
+  "description": "An ERC20 token that represents protocol equity that can be staked in a staking contract in order to recieve staking rewards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brad-Behrens/stakeable-erc20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brad-Behrens/stakeable-erc20/issues"
+  },
+  "homepage": "https://github.com/Brad-Behrens/stakeable-erc20#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.0",
+    "hardhat": "^2.1.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0"
+  }
+}
